@@ -1,6 +1,6 @@
 # Java Spring-Boot test examples
 
-Colelction of examples for testing within spring-boot using Junit and Mockito test frameworks.
+Collection of examples for testing within spring-boot using Junit and Mockito test frameworks.
 
 ### Framework Documentation
 
