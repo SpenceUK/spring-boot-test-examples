@@ -9,3 +9,23 @@ Collection of examples for testing within spring-boot using Junit and Mockito te
 [Junit test framework](https://junit.org/junit4/)
 
 [Mockito - mocking and spying framework](https://static.javadoc.io/org.mockito/mockito-core/2.24.5/org/mockito/Mockito.html)
+
+### Running Tests
+
+To run tests we use the build tool [Maven](https://maven.apache.org/guides/index.html).
+
+To run all tests:
+
+```bash
+mvn test
+```
+
+To run a specific test class e.g: classToTest.java use the command:
+```bash
+mvn -Dtest=classToTest test
+```
+
+To run a specific test method within a class:
+```bash
+mvn -Dtest=classToTest#testMethodToRun test
+```
