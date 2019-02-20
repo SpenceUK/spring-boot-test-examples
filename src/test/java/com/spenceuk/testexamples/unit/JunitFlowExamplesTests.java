@@ -23,6 +23,10 @@ public class JunitFlowExamplesTests {
   /**
    * <code>@Before</code>
    * runs this method before every test method.
+   * Use this to run setup of common objects and arrangements
+   * before each test.
+   * If using the same objects between each test make sure to get new
+   * instances so each test runs cleanly with fresh instances.
    */
   @Before
   public void setup() {
@@ -32,6 +36,10 @@ public class JunitFlowExamplesTests {
   /**
    * <code>@After</code>
    * runs this method after every test method.
+   * Use this method to complete teardown, to clean
+   * up after each test.
+   *
+   * No test should rely upon another test.
    */
   @After
   public void teardown() {
