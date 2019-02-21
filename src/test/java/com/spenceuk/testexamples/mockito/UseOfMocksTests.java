@@ -3,8 +3,6 @@ package com.spenceuk.testexamples.mockito;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
-import java.io.IOException;
-
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -41,7 +39,7 @@ public class UseOfMocksTests {
   }
 
   @Test
-  public void getFileContentsReturnsStringWithEOFTest() throws IOException {
+  public void getFileContentsReturnsStringWithEOFTest(){
     /**
      * Mockito.when waits for the given mock and method call to be invoked and
      * then returns the given response, in this case it has to be called with
@@ -71,7 +69,7 @@ public class UseOfMocksTests {
   }
 
   @Test
-  public void mockWithLooseArgumentsTest() throws IOException {
+  public void mockWithLooseArgumentsTest() {
     /**
      * This mock setup widens the argument from the specific string "readme.txt" to
      * any string. Mockito has lots of helpers like this where you can choose from

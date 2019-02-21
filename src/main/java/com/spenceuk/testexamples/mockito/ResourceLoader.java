@@ -1,7 +1,5 @@
 package com.spenceuk.testexamples.mockito;
 
-import java.io.IOException;
-
 /**
  * The FileClient in this class, if it was a real, would
  * load a file from disk and could be part of a larger service
@@ -20,7 +18,7 @@ public class ResourceLoader {
     this.fileClient = fileClient;
   }
 
-  public String getFileContents(String fileName) throws IOException {
+  public String getFileContents(String fileName) {
     File file = fileClient.readFileFromDisk(fileName);
     return file.getContents() + "\nEOF";
   }
