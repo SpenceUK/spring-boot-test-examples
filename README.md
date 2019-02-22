@@ -10,6 +10,12 @@ Collection of examples for testing within spring-boot using Junit and Mockito te
 
 [Mockito - mocking and spying framework](https://static.javadoc.io/org.mockito/mockito-core/2.24.5/org/mockito/Mockito.html)
 
+[HamcrestMatchers](http://hamcrest.org/JavaHamcrest/)
+
+[JsonPath](http://jsonpath.com/)
+
+[BDD Mockito](https://www.baeldung.com/bdd-mockito)
+
 ### Running Tests
 
 To run tests we use the build tool [Maven](https://maven.apache.org/guides/index.html).
